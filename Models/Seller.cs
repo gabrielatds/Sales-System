@@ -12,6 +12,7 @@ namespace SalesWebMVC.Models
         public string Email { get; set; }
         public DateTime BirthDate { get; set; }
         public double BaseSalary { get; set; }
+        public int DepartmentId { get; set; }
 
         public Department Department { get; set; }
         //Associação de um vendedor para várias vendas abaixo
